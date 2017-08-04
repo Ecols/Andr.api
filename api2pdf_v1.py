@@ -12,7 +12,7 @@ title=pg.xpath('//div[@class="nav-section-header"]/a/@href')
 
 lis=pg.xpath('//li[@class="nav-section"]')
 
-fp=open('url.txt', 'a+')
+fp=open('url1.txt', 'a+')
 
 for li in lis:
 	li_h_url=li.xpath('div/a/@href')[0]
